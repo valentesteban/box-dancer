@@ -1,4 +1,4 @@
-const BoxDancerPlayer = (function() {
+const DancerBoxPlayer = (function() {
 
   const audio = new Audio("song.mp3");
   const tickMs = 40;
@@ -44,7 +44,7 @@ const BoxDancerPlayer = (function() {
   }
 
   /**
-   * Plays box dancer.
+   * Plays dancer box.
    */
   function play() {
 
@@ -59,7 +59,7 @@ const BoxDancerPlayer = (function() {
   }
 
   /**
-   * Pauses box dancer.
+   * Pauses dancer box.
    */
   function pause() {
     audio.pause();
